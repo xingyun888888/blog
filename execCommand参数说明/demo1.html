@@ -161,5 +161,13 @@
 <input type=button value="插入Object" onclick=fn_InsObj()><br>
 <input type=button value="保存或打印文件" onclick=fn_save()><br>
 <input type=button value="测试Refresh属性" onclick="document.execCommand('Refresh')">
+<input type="button" value="全选" onclick="document.execCommand('selectAll')">
+<input type="button" value="打开" onclick="document.execCommand('saveas',true,'name.xml')">
+<script>
+    document.body.onmouseup=function(){
+        var  txt = window.getSelection();
+        console.log(txt);
+    }
+</script>
 </body>
 </html>
