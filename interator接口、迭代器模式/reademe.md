@@ -14,7 +14,7 @@
 
  - 以下就是迭代器模式的demo
    
- --- 
+ ```
    let getUploadObj = {
        getActiveUploadObj (){
            try {
@@ -37,8 +37,8 @@
            return $(str).appendTo($('body'));
        }
    } 
-   // 给对象getUploadObj定义iterator接口，上面演示过这段代码
-   // 这里可以通过工厂模式，抽象成一个专门给对象安装iterator接口的函数，这样就可以省却很多重复代码了。
+   //给对象getUploadObj定义iterator接口，上面演示过这段代码
+   //这里可以通过工厂模式，抽象成一个专门给对象安装iterator接口的函数，这样就可以省却很多重复代码了。
    Object.defineProperty(getUploadObj, Symbol.iterator, {
        enumerable: false,
        writable: false,
@@ -68,4 +68,4 @@
    }  
    let uploadObj = iteratorUploadObj(getUploadObj);
    console.log(uploadObj);  // [input, prevObject: Z.fn.init[1], context: undefined]   
- ---   
+```  
