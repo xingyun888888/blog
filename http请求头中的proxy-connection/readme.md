@@ -27,8 +27,10 @@
   #### Proxy-Connection 是什么？
    HTTP 中的 Connection，用来对 HTTP 连接进行说明，多个说明使用英文逗号隔开，如
    ```
+   
      GET / HTTP/1.1
      Host: www.example.com
      Connection: my-header, close, my-connection
      My-Header: xxx
+        
    ```
