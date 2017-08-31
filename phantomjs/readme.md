@@ -1,7 +1,7 @@
 
 ### Mac OS X && Windows
 
-#### 1.[Phantomjs下载地址]("http://phantomjs.org/download.html")
+#### 1.[Phantomjs下载地址](http://phantomjs.org/download.html)
 
 ```
    按照系统下载对应的版本，
