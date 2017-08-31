@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78811fa0-e1f3-4b4f-a18b-52291898d8ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openssl 建立CA，服务器证书请求及签发，客户端测试连接，加密签名工具 等的详细步骤/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python安装第三方模块错误解决方案/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjs/readme.md" afterPath="$PROJECT_DIR$/phantomjs/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,12 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openssl 建立CA，服务器证书请求及签发，客户端测试连接，加密签名工具 等的详细步骤/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="491">
-                <caret line="244" column="34" lean-forward="true" selection-start-line="244" selection-start-column="34" selection-end-line="244" selection-end-column="34" />
+              <first_editor relative-caret-position="407">
+                <caret line="246" column="0" lean-forward="true" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python安装第三方模块错误解决方案/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="379">
+                <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -136,6 +148,7 @@
         <option value="$PROJECT_DIR$/如何使用mobiscroll插件/readme.md" />
         <option value="$PROJECT_DIR$/phantomjs/readme.md" />
         <option value="$PROJECT_DIR$/openssl 建立CA，服务器证书请求及签发，客户端测试连接，加密签名工具 等的详细步骤/readme.md" />
+        <option value="$PROJECT_DIR$/python安装第三方模块错误解决方案/readme.md" />
       </list>
     </option>
   </component>
@@ -190,6 +203,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="如何使用mobiscroll插件" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python安装第三方模块错误解决方案" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,12 +337,12 @@
       <workItem from="1503298995950" duration="17705000" />
       <workItem from="1503630814044" duration="2234000" />
       <workItem from="1503991865679" duration="1975000" />
-      <workItem from="1504146094668" duration="156000" />
+      <workItem from="1504146094668" duration="1033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22070000" />
+    <option name="totallyTimeSpent" value="22947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1980" y="23" width="1860" height="989" extended-state="0" />
@@ -668,8 +695,19 @@
     <entry file="file://$PROJECT_DIR$/openssl 建立CA，服务器证书请求及签发，客户端测试连接，加密签名工具 等的详细步骤/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="491">
-            <caret line="244" column="34" lean-forward="true" selection-start-line="244" selection-start-column="34" selection-end-line="244" selection-end-column="34" />
+          <first_editor relative-caret-position="407">
+            <caret line="246" column="0" lean-forward="true" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python安装第三方模块错误解决方案/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="379">
+            <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />
