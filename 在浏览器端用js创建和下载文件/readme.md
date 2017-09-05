@@ -22,16 +22,16 @@ function downloadFile(aLink, fileName, content){
 }
 ``` 
  
-----
-但是，还不够，上面的办法有两个硬伤，会导致流失很多懒人美眉：
-下载的文件类型限制死了，美眉要下载处理后的果照怎么办？
-下载还要再点击一下，太麻烦啦。
-要解决文件类型的问题，可以用浏览器的新API（URL.createObjectURL）来解决问题，URL.createObjectURL通常都是用来创建图片的DataURI用来显示图片，这里用来下载文件，让浏览器来帮我们设定好文件类型。
-URL.createObjectURL的参数是File对象或者Blob对象，File对象也就是通过input[type=file]选择的文件，Blob对象是二进制大对象，详细说明可参考这里。
-现在，我们只要用content创建一个ObjectURL并赋值给aLink即可解决文件类型的限制问题。
-文件的自动下载也挺好办，自己构建一个UI点击事件，再自动触发下，就能实现自动下载啦。
-现在来看看最终代码：
-----
+---
+    但是，还不够，上面的办法有两个硬伤，会导致流失很多懒人美眉：
+    下载的文件类型限制死了，美眉要下载处理后的果照怎么办？
+    下载还要再点击一下，太麻烦啦。
+    要解决文件类型的问题，可以用浏览器的新API（URL.createObjectURL）来解决问题，URL.createObjectURL通常都是用来创建图片的DataURI用来显示图片，这里用来下载文件，让浏览器来帮我们设定好文件类型。
+    URL.createObjectURL的参数是File对象或者Blob对象，File对象也就是通过input[type=file]选择的文件，Blob对象是二进制大对象，详细说明可参考这里。
+    现在，我们只要用content创建一个ObjectURL并赋值给aLink即可解决文件类型的限制问题。
+    文件的自动下载也挺好办，自己构建一个UI点击事件，再自动触发下，就能实现自动下载啦。
+    现在来看看最终代码：
+---
 
 ```  
 function downloadFile(fileName, content){
