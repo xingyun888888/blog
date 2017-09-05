@@ -47,3 +47,14 @@ function downloadFile(fileName, content){
 
 >现在，只要一调用downloadFile，文件就自动下载了，是不是很爽咧，^_^。
  注：目前（2014-01-02）Blob和URL.createObjectURL在标准浏览器里面都不再需要加私有前缀，可以放心使用啦啦啦～～如果你不放心，可以查查Can I Use。
+ 
+ 
+### 以下参考链接 
+ 
+[web端js导出csv文件(使用a标签)](http://blog.csdn.net/oscar999/article/details/16342699) 
+
+[Blob相关文档](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
+
+[在浏览器端用js创建和下载文件](http://www.alloyteam.com/2014/01/use-js-file-download/)
+
+ 
