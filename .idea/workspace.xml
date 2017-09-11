@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78811fa0-e1f3-4b4f-a18b-52291898d8ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mst/frontMst.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redis/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/微信浏览器的一些问题/readme.md" afterPath="$PROJECT_DIR$/微信浏览器的一些问题/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mst/frontMst.md" afterPath="$PROJECT_DIR$/mst/frontMst.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/mst/frontMst.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="218">
-                <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <first_editor relative-caret-position="2793">
+                <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -257,12 +254,12 @@
       <workItem from="1503630814044" duration="2234000" />
       <workItem from="1503991865679" duration="1975000" />
       <workItem from="1504146094668" duration="3289000" />
-      <workItem from="1504488985163" duration="19775000" />
+      <workItem from="1504488985163" duration="21827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44978000" />
+    <option name="totallyTimeSpent" value="47030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1923" y="23" width="1860" height="989" extended-state="0" />
@@ -810,8 +807,8 @@
     <entry file="file://$PROJECT_DIR$/mst/frontMst.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="218">
-            <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <first_editor relative-caret-position="2793">
+            <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
