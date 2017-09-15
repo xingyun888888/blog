@@ -1,5 +1,6 @@
 ###  typescript
 
+[参考文档](https://www.tslang.cn/docs/handbook/generics.html)
 
 - 基础类型:
   
