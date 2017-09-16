@@ -1,5 +1,7 @@
 ### 简历中的面试题
 
+[面试题1](http://www.haorooms.com/post/qianduan_mianshi)
+[面试题2](http://www.cnblogs.com/haoyijing/p/5789348.html)
 
 - 1.你项目中使用过vue吗？对vue了解吗？
 
