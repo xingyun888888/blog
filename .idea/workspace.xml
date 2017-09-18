@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78811fa0-e1f3-4b4f-a18b-52291898d8ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mst/mst4.md" afterPath="$PROJECT_DIR$/mst/mst4.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescript/基础类型.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescript/接口.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescript/泛型.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,32 +17,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="blog" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular4.0/readme.md">
-          <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="42">
+                <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
-          </provider>
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -48,47 +43,51 @@
         <entry file="file://$PROJECT_DIR$/typescript/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-482">
-                <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <first_editor relative-caret-position="21">
+                <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="基础类型.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typescript/基础类型.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="442">
+                <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mst/readme.md">
-          <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.16129" vertical-offset="0" max-vertical-offset="529">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
+      <file leaf-file-name="接口.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typescript/接口.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="463">
+                <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
-          </provider>
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mst4.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mst/mst4.md">
-          <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4972973" vertical-offset="0" max-vertical-offset="4140">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
+      <file leaf-file-name="泛型.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/typescript/泛型.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="379">
+                <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
-          </provider>
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -145,6 +144,10 @@
         <option value="$PROJECT_DIR$/angular4.0/readme.md" />
         <option value="$PROJECT_DIR$/typescript/readme.md" />
         <option value="$PROJECT_DIR$/mst/mst4.md" />
+        <option value="$PROJECT_DIR$/typescript/基础类型" />
+        <option value="$PROJECT_DIR$/typescript/基础类型.md" />
+        <option value="$PROJECT_DIR$/typescript/接口.md" />
+        <option value="$PROJECT_DIR$/typescript/泛型.md" />
       </list>
     </option>
   </component>
@@ -152,6 +155,7 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1944" />
@@ -170,44 +174,40 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mst" />
+              <option name="myItemId" value="typescript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,35 +225,25 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>BDD</ui>
-      <extra-mocha-options />
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
@@ -266,6 +256,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -274,9 +265,30 @@
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>BDD</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -285,6 +297,7 @@
       <changelist id="78811fa0-e1f3-4b4f-a18b-52291898d8ec" name="Default" comment="" />
       <created>1503298994655</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1503298994655</updated>
       <workItem from="1503298995950" duration="17705000" />
       <workItem from="1503630814044" duration="2234000" />
@@ -295,18 +308,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59124000" />
+    <option name="totallyTimeSpent" value="61693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1944" y="73" width="1860" height="989" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959217" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -359,43 +372,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/typescript/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python安装第三方模块错误解决方案/readme.md" />
-    <entry file="file://$PROJECT_DIR$/rem手机屏幕匹配/readme.md" />
-    <entry file="file://$PROJECT_DIR$/mst/readme.md" />
-    <entry file="file://$PROJECT_DIR$/如何使用mobiscroll插件/readme.md" />
-    <entry file="file://$PROJECT_DIR$/execCommand参数说明/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python搭建自动化测试/readme.md" />
     <entry file="file://$PROJECT_DIR$/phantomjs/readme.md" />
     <entry file="file://$PROJECT_DIR$/mst/readme.md" />
     <entry file="file://$PROJECT_DIR$/如何使用mobiscroll插件/readme.md" />
     <entry file="file://$PROJECT_DIR$/execCommand参数说明/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="169" column="5" lean-forward="false" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -403,8 +392,8 @@
     <entry file="file://$PROJECT_DIR$/mst/readme.md" />
     <entry file="file://$PROJECT_DIR$/execCommand参数说明/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="169" column="5" lean-forward="false" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -417,8 +406,8 @@
     <entry file="file://$PROJECT_DIR$/Range/readme.md" />
     <entry file="file://$PROJECT_DIR$/Range/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -426,23 +415,23 @@
     <entry file="file://$PROJECT_DIR$/css各种单位/readme.md" />
     <entry file="file://$PROJECT_DIR$/http请求头中的proxy-connection/readme.md">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dom元素尺寸offsetWidth,scrollWidth,scrollWidth,clientWidth/readme.md">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getBoundingClientRect方法详解/readme.md" />
     <entry file="file://$PROJECT_DIR$/execCommand参数说明/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="169" column="5" lean-forward="false" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -456,8 +445,8 @@
     <entry file="file://$PROJECT_DIR$/phantomjs/readme.md" />
     <entry file="file://$PROJECT_DIR$/python搭建自动化测试/readme.md">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -472,54 +461,48 @@
     <entry file="file://$PROJECT_DIR$/移动端适配方案/readme.md" />
     <entry file="file://$PROJECT_DIR$/rem手机屏幕匹配/readme.md" />
     <entry file="file://$PROJECT_DIR$/angular4.0/readme.md">
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typescript/readme.md">
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1357">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mst/readme.md">
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.16129" vertical-offset="0" max-vertical-offset="529">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mst/mst4.md">
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4972973" vertical-offset="0" max-vertical-offset="4140">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/基础类型">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -527,8 +510,49 @@
     <entry file="file://$PROJECT_DIR$/typescript/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-482">
-            <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <first_editor relative-caret-position="21">
+            <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/基础类型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="442">
+            <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/接口.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="463">
+            <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/泛型">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/泛型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="379">
+            <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
             <folding />
           </first_editor>
           <second_editor />
