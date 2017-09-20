@@ -12,11 +12,27 @@
     <div style="height:200px;background:red;border:1px solid #000;" id="children"></div>
 </div>
 
-<script>
+<input type="file" onchange="selectFile(event)" id="first">
 
+<input type="file" id="second" onchange="console.log(this)">
+<script>
+    function selectFile(e){
+        console.log(e.target.value);
+        console.log(document.getElementById("first").files[0]);
+        var tmp = document.getElementById("first").files[0];
+        var file = document.getElementById("second");
+
+        file.files[0] = new File([tmp],"picture[]");;
+        console.log(file.value);
+        file.value= e.target.value;
+        //document.getElementById("second").value=e.target.value;
+
+
+    }
     document.getElementById("children").addEventListener("click",function(e){
         alert(1);
     },true)
+
 
 </script>
 </body>
