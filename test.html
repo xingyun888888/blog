@@ -5,7 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-<div style="height:100px;background:#ff0;"></div>
-<div style="height:100px;background:#f00;margin-top:-50px;"></div>
+<div style="height:100px;background:#ff0;float:left;width:200px;"></div>
+<div style="margin-left:200px;background:#f00;">dsfs</div>
+
+<div style="border:1px solid #000;height:500px;background:#ff0;" >
+    <div style="height:200px;background:red;border:1px solid #000;" id="children"></div>
+</div>
+
+<script>
+
+    document.getElementById("children").addEventListener("click",function(e){
+        alert(1);
+    },true)
+
+</script>
 </body>
 </html>
