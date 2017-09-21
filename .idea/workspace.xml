@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78811fa0-e1f3-4b4f-a18b-52291898d8ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mst/mst7.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/gas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/限时抢购.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/gas.js" afterPath="$PROJECT_DIR$/myProject/gas.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/readme.md" afterPath="$PROJECT_DIR$/myProject/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -82,12 +79,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myProject/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-776">
-                <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <first_editor relative-caret-position="1534">
+                <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -98,14 +95,14 @@
       <file leaf-file-name="gas.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myProject/gas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="1098" column="16" lean-forward="false" selection-start-line="1098" selection-start-column="7" selection-end-line="1098" selection-end-column="16" />
+            <state relative-caret-position="-1974">
+              <caret line="1003" column="22" lean-forward="true" selection-start-line="1003" selection-start-column="22" selection-end-line="1003" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="限时抢购.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="限时抢购.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myProject/限时抢购.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -228,9 +225,9 @@
         <option value="$PROJECT_DIR$/常用网址导航/readme.md" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/mst/mst7.md" />
+        <option value="$PROJECT_DIR$/myProject/限时抢购.js" />
         <option value="$PROJECT_DIR$/myProject/gas.js" />
         <option value="$PROJECT_DIR$/myProject/readme.md" />
-        <option value="$PROJECT_DIR$/myProject/限时抢购.js" />
       </list>
     </option>
   </component>
@@ -393,12 +390,12 @@
       <workItem from="1504146094668" duration="3289000" />
       <workItem from="1504488985163" duration="33921000" />
       <workItem from="1505815929197" duration="598000" />
-      <workItem from="1505871087274" duration="19973000" />
+      <workItem from="1505871087274" duration="22006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88161000" />
+    <option name="totallyTimeSpent" value="90194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1925" y="23" width="1860" height="989" extended-state="0" />
@@ -764,25 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-776">
-            <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/gas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="1098" column="16" lean-forward="false" selection-start-line="1098" selection-start-column="7" selection-end-line="1098" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myProject/限时抢购.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -792,6 +770,25 @@
             <marker date="1505986294000" expanded="true" signature="772:776" ph="&gt;" />
             <marker date="1505986294000" expanded="true" signature="1033:1046" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/gas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1974">
+          <caret line="1003" column="22" lean-forward="true" selection-start-line="1003" selection-start-column="22" selection-end-line="1003" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1534">
+            <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

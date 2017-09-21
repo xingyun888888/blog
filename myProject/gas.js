@@ -999,6 +999,7 @@
             }
             group.push(data);
         }
+        console.log(group);
         var gl = group.length;
         //对页面标签初始化埋点ID
         for (var k = 0; k < gl; k++) {
