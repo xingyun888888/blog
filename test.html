@@ -34,6 +34,55 @@
     },true)
 
 
+    arr = [{id:5,name:"c"},{id:1,name:"b"}]
+
+    var paixu = function(arr,prop){
+        var compare = function(a,b){
+            if(a[prop]>b[prop]){
+                return 1;
+            }else if(a[prop]<b[prop]){
+                return -1;
+            }else{
+                return 0;
+            }
+        }
+        return arr.sort(compare)
+    }
+
+    console.log(paixu(arr,"name"));
+
+
+    str = "12342423423523grtrsdgfsgdfgdfgdfgdfgfdgfgdfg5252453453453451341243242t52t5rtertgergdrght";
+
+    str = str.split("").sort().join("");
+
+
+    console.log(str);
+
+    console.log(str.match(/(.).*\1/g));
+
+
+
+
+
+    var obj={};
+    for(var i=0;i<str.length;i++){
+       if(obj[str[i]]){
+         obj[str[i]]++;
+       }else{
+           obj[str[i]]=1;
+       }
+    }
+    var init =0;
+    var max =""
+    for(var key in obj){
+        if(obj[key]-init>0){
+            max = key;
+            init = obj[key];
+        }
+    }
+    console.dir(obj);
+    console.log(max);
 </script>
 </body>
 </html>
