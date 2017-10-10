@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>印花墙</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .header{
+            width:100%;
+        }
+        .header img{
+            width:100%;
+            min-height:2rem;
+        }
+        .container{
+            padding:0 1rem;
+        }
+       .container ul{
+           overflow:hidden;
+       }
+
+       .container ul li{
+           float:left;
+           list-style:none;
+           width:50%;
+           line-height:1.5rem;
+           border-bottom:0.05rem solid #ccc;
+           font-size:0.7rem;
+           text-align:center;
+           color:#333;
+       }
+        .container ul li b{
+            font-weight:400;
+            margin-right:1.5rem;
+        }
+        .container ul li span{
+            float:right;
+            margin-right:1.5rem;
+        }
+        .container ul li:nth-child(even){
+          box-sizing:border-box;
+          border-left:0.05rem dotted #ccc;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="header">
+       <img src="img/headerImg.png" alt="">
+   </div>
+   <div class="container">
+       <ul>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+           <li><b>1.xxx</b><span>43</span></li>
+       </ul>
+   </div>
+   <script src="js/rem.js"></script>
+   <script>
+
+      function getData(){
+
+          //这里可以请求从后端返回的数据，目前使用本地模拟数据
+          return [
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)},
+              {name:"小"+Math.floor(Math.random()*10),score:(Math.random()*10).toFixed(0)}
+          ]
+      }
+
+
+      //  根据业务逻辑 10s 刷新一次数据
+      setInterval(function(){
+
+          var data  = getData();
+
+          var  html = "";
+
+          data.map(function(item,index){
+              html +=`<li><b>${item.name}</b><span>${item.score}</span></li>`
+          })
+
+          document.querySelector(".container ul").innerHTML = html;
+      },10000);
+
+   </script>
+</body>
+</html>

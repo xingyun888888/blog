@@ -8,3 +8,21 @@
 
  ```
  
+ 
+ - -webkit-overflow-scrolling  ios上出现白色区域怎么解决
+ 
+ ``` 
+   overflow:auto;
+   display:flex;
+   flex-direction:column;
+   max-height:80vh;
+   border-radius:8px;
+   -webkit-overflow-scrolling:touch;
+   overflow-scrolling:touch;
+   
+   &>*{
+      transform:transformZ(0);
+      transform:translateZ(0);
+   }
+   
+ ```
