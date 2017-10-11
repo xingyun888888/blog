@@ -16,24 +16,60 @@
             width:100%;
             min-height:2rem;
         }
-        .container{
-            padding:0 1rem;
-        }
-       .container ul{
-           overflow:hidden;
-       }
+        /*.container{*/
+            /*padding:0 1rem;*/
+        /*}*/
+        /*.container ul{*/
+           /*overflow:hidden;*/
+        /*}*/
 
-       .container ul li{
-           float:left;
-           list-style:none;
-           width:50%;
-           line-height:1.5rem;
-           border-bottom:0.05rem solid #ccc;
-           font-size:0.7rem;
-           text-align:center;
-           color:#333;
-       }
-        .container ul li b{
+        /*.container ul li{*/
+           /*float:left;*/
+           /*list-style:none;*/
+           /*width:50%;*/
+           /*line-height:1.5rem;*/
+           /*border-bottom:0.05rem solid #ccc;*/
+           /*font-size:0.7rem;*/
+           /*text-align:center;*/
+           /*color:#333;*/
+        /*}*/
+        /*.container ul li b{*/
+            /*font-weight:400;*/
+            /*margin-right:1.5rem;*/
+        /*}*/
+        /*.container ul li span{*/
+            /*float:right;*/
+            /*margin-right:1.5rem;*/
+        /*}*/
+        /*.container ul li:nth-child(even){*/
+          /*box-sizing:border-box;*/
+          /*border-left:0.05rem dotted #ccc;*/
+        /*}*/
+
+
+
+
+
+
+
+        .container{
+            width:96%;
+            margin:0 auto;
+            column-count:2;
+            -webkit-column-count:2;
+            -moz-column-count:2;
+            column-gap:0;
+            -webkit-column-gap:0;
+            -moz-column-gap:0;
+            column-rule:0.05rem dashed #ccc;
+        }
+        .container div{
+            border-bottom:0.05rem solid #ccc;
+            line-height:1.2rem;
+            text-align:center;
+            font-size:0.7rem;
+        }
+        .container div b{
             font-weight:400;
             margin-right:1.5rem;
         }
@@ -41,11 +77,6 @@
             float:right;
             margin-right:1.5rem;
         }
-        .container ul li:nth-child(even){
-          box-sizing:border-box;
-          border-left:0.05rem dotted #ccc;
-        }
-
     </style>
 </head>
 <body>
@@ -53,16 +84,26 @@
        <img src="img/headerImg.png" alt="">
    </div>
    <div class="container">
-       <ul>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-           <li><b>1.xxx</b><span>43</span></li>
-       </ul>
+       <!--<ul>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+           <!--<li><b>1.xxx</b><span>43</span></li>-->
+       <!--</ul>-->
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
+       <div><b>1.xxx</b><span>43</span></div>
    </div>
    <script src="js/rem.js"></script>
    <script>
@@ -91,10 +132,12 @@
           var  html = "";
 
           data.map(function(item,index){
-              html +=`<li><b>${item.name}</b><span>${item.score}</span></li>`
+//              html +=`<li><b>${item.name}</b><span>${item.score}</span></li>`
+              html += `<div><b>${index+1}->${item.name}</b><span>${item.score}</span></div>`
           })
 
-          document.querySelector(".container ul").innerHTML = html;
+//          document.querySelector(".container ul").innerHTML = html;
+          document.querySelector(".container").innerHTML = html;
       },10000);
 
    </script>
