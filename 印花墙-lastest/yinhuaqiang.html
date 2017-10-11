@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>印花墙</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .header{
+            width:100%;
+        }
+        .header img{
+            width:100%;
+            min-height:2rem;
+        }
+        .container{
+            width:96%;
+            margin:0 auto;
+            column-count:2;
+            -webkit-column-count:2;
+            -moz-column-count:2;
+            column-gap:0;
+            -webkit-column-gap:0;
+            -moz-column-gap:0;
+            column-rule:0.05rem dashed #ccc;
+        }
+        .container div{
+            border-bottom:0.05rem solid #ccc;
+            line-height:1.2rem;
+            text-align:center;
+            font-size:0.7rem;
+        }
+        .container div b{
+            font-weight:400;
+            display:inline-block;
+            width:5rem;
+            text-align:left;
+        }
+        .container ul li span{
+            float:right;
+            margin-right:1.5rem;
+        }
+    </style>
+</head>
+<body>
+   <div class="header">
+       <img src="img/headerImg.png" alt="">
+   </div>
+   <div class="container">
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+       <!--<div><b>1.xxx</b><span>43</span></div>-->
+   </div>
+   <script src="js/rem.js"></script>
+   <script  src="http://code.jquery.com/jquery-1.12.4.js"  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+            crossorigin="anonymous"></script>
+   <script src="js/mock-min.js"></script>
+   <script>
+       //使用mockjs模拟的数据,如果看不懂先不用管
+       var Random = Mock.Random;
+       Mock.mock(/\.json/,{
+           "list|12":[{  //需要模拟多少数据 改这里
+               'id|+1':1,
+               'name|+1':'@cname',
+               'score|60-100':100
+           }]
+       })
+   </script>
+   <script>
+      /**
+       *  将数据渲染到页面上面的方法
+       *  data:{
+       *     id:xxx
+       *     name:xxx
+       *     score:xxx
+       *  }
+       */
+      function renderHtml(data){
+          var  strHtml = "";
+          data.map(function(item,index){
+              strHtml+=`<div><b>${item.id}->${item.name}</b><span>${item.score}</span></div>`;
+          })
+          $(".container").html(strHtml);
+      }
+      /**
+       * 从服务端获取数据的方法
+       *
+       */
+      function getData(){
+          $.ajax({
+              //模拟一个后端接口
+              url:"hello.json",
+              dataType:"json",
+              /**
+               * @param res
+               * res:{
+               *   list:[{id:xx,name:xx,score:xx},...]
+               * }
+               */
+              success:function(res){
+                  console.log(res);
+                  renderHtml(res.list);
+              }
+          })
+      }
+      //初次页面渲染时，调用一次
+      getData();
+      //根据业务逻辑 10s 刷新一次数据
+      setInterval(function(){
+          getData();
+      },10000);
+
+   </script>
+</body>
+</html>
