@@ -29,6 +29,8 @@
         }
         .container div{
             border-bottom:0.05rem solid #ccc;
+            height:1.2rem;
+            box-sizing: border-box;
             line-height:1.2rem;
             text-align:center;
             font-size:0.7rem;
@@ -69,7 +71,7 @@
        //使用mockjs模拟的数据,如果看不懂先不用管
        var Random = Mock.Random;
        Mock.mock(/\.json/,{
-           "list|12":[{  //需要模拟多少数据 改这里
+           "list|120":[{  //需要模拟多少数据 改这里
                'id|+1':1,
                'name|+1':'@cname',
                'score|60-100':100
